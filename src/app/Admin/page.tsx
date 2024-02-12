@@ -446,7 +446,7 @@ const Admin: React.FC = () => {
             <br />
           </div>
         ))}
-        <button
+        {/* <button
           type="button"
           onClick={() => {
             setSocialMediaLinks([
@@ -461,17 +461,17 @@ const Admin: React.FC = () => {
           }}
         >
           Add Social Media Links
-        </button>
-        <br />
+        </button> */}
+        {/* <br /> */}
         {/* remove Social Media Link */}
-        <button
+        {/* <button
           type="button"
           onClick={() => {
             setSocialMediaLinks(SocialMediaLinks.slice(0, SocialMediaLinks.length - 1));
           }}
         >
           Remove Social Media Links
-        </button>
+        </button> */}
         <br />
         {TopBeaches.map((beach, index) => (
           <div key={index}>
